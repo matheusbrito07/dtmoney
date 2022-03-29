@@ -1,7 +1,7 @@
 import { Container } from "./styles"
 
 import EntradasImg from "../../assets/Entradas.svg"
-import SaídasImg from "../../assets/Saídas.svg"
+import SaidasImg from "../../assets/Saidas.svg"
 import TotalImg from '../../assets/Total.svg'
 
 export function Summary() {
@@ -17,7 +17,7 @@ export function Summary() {
             <div>
                 <header>
                     <p>Saidas</p>
-                    <img src={SaídasImg} alt="Valor Negativo" />
+                    <img src={SaidasImg} alt="Valor Negativo" />
                 </header>
                 <strong>- R$500,00</strong>
             </div>
